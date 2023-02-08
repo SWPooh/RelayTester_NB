@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F40DE09-165E-44C2-AE4E-AB5B5CEBFAAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RelayTester</RootNamespace>
+    <AssemblyName>RelayTester</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TRADD</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>relayico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonRelay.cs" />
+    <Compile Include="CreateMsg.cs" />
+    <Compile Include="DbLink.cs" />
+    <Compile Include="ErrorCodePop.cs" />
+    <Compile Include="ErrorReport.cs" />
+    <Compile Include="Excell.cs" />
+    <Compile Include="FormMain\FormMainWork.cs" />
+    <Compile Include="FormProgressbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProgressbar.Designer.cs">
+      <DependentUpon>FormProgressbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRelay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRelay.Designer.cs">
+      <DependentUpon>FormRelay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormBaseCode\FormBaseCodeWork.cs" />
+    <Compile Include="FormSetting\FormCorrectValue\FormCorrectValueWork.cs" />
+    <Compile Include="FormSetting\FormSetActionError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormSetActionError.Designer.cs">
+      <DependentUpon>FormSetActionError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormAdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormAdminLogin.Designer.cs">
+      <DependentUpon>FormAdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormCorrectValue\FormCali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormCorrectValue\FormCali.Designer.cs">
+      <DependentUpon>FormCali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormContectResi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormContectResi.Designer.cs">
+      <DependentUpon>FormContectResi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormCorrectValue\FormSetContectCorrectValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormCorrectValue\FormSetContectCorrectValue.Designer.cs">
+      <DependentUpon>FormSetContectCorrectValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormSetAdminPW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormSetAdminPW.Designer.cs">
+      <DependentUpon>FormSetAdminPW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormCorrectValue\FormSetCorrectValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormCorrectValue\FormSetCorrectValue.Designer.cs">
+      <DependentUpon>FormSetCorrectValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormErrorCodePopCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormErrorCodePopCon.Designer.cs">
+      <DependentUpon>FormErrorCodePopCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormErrorCodePop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormErrorCodePop.Designer.cs">
+      <DependentUpon>FormErrorCodePop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReport\FormErrorReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport\FormErrorReport.Designer.cs">
+      <DependentUpon>FormErrorReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormReportLotPopNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormReportLotPopNew.Designer.cs">
+      <DependentUpon>FormReportLotPopNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormReportLotPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormReportLotPop.Designer.cs">
+      <DependentUpon>FormReportLotPop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReport\FormReportPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport\FormReportPrint.Designer.cs">
+      <DependentUpon>FormReportPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormTimeResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormTimeResult.Designer.cs">
+      <DependentUpon>FormTimeResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormSetErrorCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormSetErrorCode.Designer.cs">
+      <DependentUpon>FormSetErrorCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormSetTester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormSetTester.Designer.cs">
+      <DependentUpon>FormSetTester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormBaseCode\FormBaseCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormBaseCode\FormBaseCode.Designer.cs">
+      <DependentUpon>FormBaseCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormLotPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormLotPop.Designer.cs">
+      <DependentUpon>FormLotPop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReport\FormSelectResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport\FormSelectResult.Designer.cs">
+      <DependentUpon>FormSelectResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormSetTestValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormSetTestValue.Designer.cs">
+      <DependentUpon>FormSetTestValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormSchedPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormSchedPop.Designer.cs">
+      <DependentUpon>FormSchedPop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormSetSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormSetSchedule.Designer.cs">
+      <DependentUpon>FormSetSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting\FormSetWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting\FormSetWorker.Designer.cs">
+      <DependentUpon>FormSetWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPop\FormPalletInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPop\FormPalletInput.Designer.cs">
+      <DependentUpon>FormPalletInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="JobResult.cs" />
+    <Compile Include="JobSetting.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveMsg.cs" />
+    <Compile Include="Serial.cs" />
+    <EmbeddedResource Include="FormProgressbar.resx">
+      <DependentUpon>FormProgressbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRelay.resx">
+      <DependentUpon>FormRelay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormSetActionError.resx">
+      <DependentUpon>FormSetActionError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormAdminLogin.resx">
+      <DependentUpon>FormAdminLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormCorrectValue\FormCali.resx">
+      <DependentUpon>FormCali.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormContectResi.resx">
+      <DependentUpon>FormContectResi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormCorrectValue\FormSetContectCorrectValue.resx">
+      <DependentUpon>FormSetContectCorrectValue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormSetAdminPW.resx">
+      <DependentUpon>FormSetAdminPW.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormCorrectValue\FormSetCorrectValue.resx">
+      <DependentUpon>FormSetCorrectValue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormErrorCodePopCon.resx">
+      <DependentUpon>FormErrorCodePopCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormErrorCodePop.resx">
+      <DependentUpon>FormErrorCodePop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReport\FormErrorReport.resx">
+      <DependentUpon>FormErrorReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormReportLotPopNew.resx">
+      <DependentUpon>FormReportLotPopNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormReportLotPop.resx">
+      <DependentUpon>FormReportLotPop.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReport\FormReportPrint.resx">
+      <DependentUpon>FormReportPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormTimeResult.resx">
+      <DependentUpon>FormTimeResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormSetErrorCode.resx">
+      <DependentUpon>FormSetErrorCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormSetTester.resx">
+      <DependentUpon>FormSetTester.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormBaseCode\FormBaseCode.resx">
+      <DependentUpon>FormBaseCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormLotPop.resx">
+      <DependentUpon>FormLotPop.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReport\FormSelectResult.resx">
+      <DependentUpon>FormSelectResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormSetTestValue.resx">
+      <DependentUpon>FormSetTestValue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormSchedPop.resx">
+      <DependentUpon>FormSchedPop.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormSetSchedule.resx">
+      <DependentUpon>FormSetSchedule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting\FormSetWorker.resx">
+      <DependentUpon>FormSetWorker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPop\FormPalletInput.resx">
+      <DependentUpon>FormPalletInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ver_History.txt" />
+    <None Include="Resources\red.png" />
+    <None Include="Resources\RelayImage2.jpg" />
+    <None Include="Resources\RelayImage1.jpg" />
+    <None Include="Resources\grid.png" />
+    <None Include="Resources\Alert.wav" />
+    <None Include="Resources\DaeaTi_logo.jpg" />
+    <None Include="Resources\green.png" />
+    <None Include="Resources\grey.png" />
+    <None Include="Resources\orange.png" />
+    <Content Include="relayico.ico" />
+    <Content Include="Resources\page_white.png" />
+    <Content Include="Resources\page_white_add.png" />
+    <None Include="Resources\page_white_database.png" />
+    <Content Include="Resources\page_white_delete.png" />
+    <Content Include="Resources\page_white_magnify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

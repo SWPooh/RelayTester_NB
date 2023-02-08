@@ -1,0 +1,150 @@
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\bin\Debug\AppStart.exe
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\bin\Debug\AppStart.pdb
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\bin\Debug\Ionic.Zip.dll
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.pdb
+D:\WindowsFormsApplicationForDeployTest\AppStart\bin\Debug\AppStart.exe
+D:\WindowsFormsApplicationForDeployTest\AppStart\bin\Debug\AppStart.pdb
+D:\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.csprojResolveAssemblyReference.cache
+D:\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.Form1.resources
+D:\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+D:\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.Cache
+D:\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.exe
+D:\WindowsFormsApplicationForDeployTest\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\bin\Debug\AppStart.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\bin\Debug\AppStart.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.Cache
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\AppStart\obj\x86\Debug\AppStart.csprojResolveAssemblyReference.cache
+C:\Users\daeati3955\documents\visual studio 2015\Projects\PjtCost\AppStart\bin\Debug\AppStart.exe
+C:\Users\daeati3955\documents\visual studio 2015\Projects\PjtCost\AppStart\bin\Debug\AppStart.pdb
+C:\Users\daeati3955\documents\visual studio 2015\Projects\PjtCost\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\daeati3955\documents\visual studio 2015\Projects\PjtCost\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\daeati3955\documents\visual studio 2015\Projects\PjtCost\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.Cache
+C:\Users\daeati3955\documents\visual studio 2015\Projects\PjtCost\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\daeati3955\documents\visual studio 2015\Projects\PjtCost\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\AppStart\obj\x86\Debug\AppStart.csprojResolveAssemblyReference.cache
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\bin\Debug\AppStart.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\bin\Debug\AppStart.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.Cache
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\AppStart\obj\x86\Debug\AppStart.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\bin\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\bin\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\bin\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\bin\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\bin\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\bin\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\bin\Debug\AppStart.exe
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\bin\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\AppStart\obj\x86\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\bin\Debug\AppStart.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\bin\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\bin\Debug\AppStart.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\AppStart\obj\x86\Debug\AppStart.pdb

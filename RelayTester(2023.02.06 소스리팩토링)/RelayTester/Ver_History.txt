@@ -1,0 +1,10 @@
+﻿프로젝트명: 종합 시험기 계전기 프로그램 업데이트
+
+ver3.8 (2023.01.18)
+수정사항 by 정성훈
+1. 유무극 통합 구성 - 2번, 3번 시험기 - FormRelay -> FormRelay_Load(), btnSchedLoad_Click()
+2. 접촉저항 에러코드 팝업 페이지 추가 - FormErrorCodePopCon
+3. 작업결과 에러코드 팝업 페이지 추가 - FormErrorCodePop
+4. 에러조치결과 출력 페이지 추가 - FormErrorReport
+5. 출력정보 조회시 프로그래스바 추가 - FormProgressbar
+

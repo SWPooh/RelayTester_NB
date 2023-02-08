@@ -1,0 +1,175 @@
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\bin\Debug\update.exe
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\bin\Debug\update.pdb
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\bin\Debug\Ionic.Zip.dll
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.Form1.resources
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.info.resources
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.exe
+C:\Users\goldrush\documents\visual studio 2010\Projects\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.pdb
+D:\WindowsFormsApplicationForDeployTest\update\bin\Debug\update.exe
+D:\WindowsFormsApplicationForDeployTest\update\bin\Debug\update.pdb
+D:\WindowsFormsApplicationForDeployTest\update\bin\Debug\Ionic.Zip.dll
+D:\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.Form1.resources
+D:\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.info.resources
+D:\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.Properties.Resources.resources
+D:\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.csproj.GenerateResource.Cache
+D:\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.exe
+D:\WindowsFormsApplicationForDeployTest\update\obj\x86\Debug\update.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\bin\Debug\update.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\bin\Debug\update.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\bin\Debug\Ionic.Zip.dll
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\obj\x86\Debug\update.Form1.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\obj\x86\Debug\update.info.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\obj\x86\Debug\update.csproj.GenerateResource.Cache
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\obj\x86\Debug\update.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\obj\x86\Debug\update.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\Planer\update\obj\x86\Debug\update.csprojResolveAssemblyReference.cache
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\bin\Debug\update.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\bin\Debug\update.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\bin\Debug\Ionic.Zip.dll
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\obj\x86\Debug\update.Form1.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\obj\x86\Debug\update.info.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\obj\x86\Debug\update.csproj.GenerateResource.Cache
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\obj\x86\Debug\update.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\PjtCost\update\obj\x86\Debug\update.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\bin\Debug\update.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\bin\Debug\update.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\bin\Debug\Ionic.Zip.dll
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\obj\x86\Debug\update.Form1.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\obj\x86\Debug\update.info.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\obj\x86\Debug\update.csproj.GenerateResource.Cache
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\obj\x86\Debug\update.exe
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\obj\x86\Debug\update.pdb
+C:\Users\daeati3955\Documents\Visual Studio 2015\Projects\RelayTester\update\obj\x86\Debug\update.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\bin\Debug\update.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\bin\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\bin\Debug\update.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.info.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.01)\update\obj\x86\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\bin\Debug\update.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\bin\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\bin\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.info.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.03)\update\obj\x86\Debug\update.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\bin\Debug\update.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\bin\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\bin\Debug\update.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.info.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합)\update\obj\x86\Debug\update.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\bin\Debug\update.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\bin\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\bin\Debug\update.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.info.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.19 유무극통합_1)\update\obj\x86\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\bin\Debug\update.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\bin\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\bin\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.info.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.01.19 유무극통합_2)\update\obj\x86\Debug\update.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\bin\Debug\update.exe.config
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\bin\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\bin\Debug\update.pdb
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.info.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.exe
+C:\Users\USER\Desktop\DeskTop\Project\relay\RelayTester(2023.01.29 유무극통합 방어코드)\update\obj\x86\Debug\update.pdb
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\bin\Debug\update.exe.config
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\bin\Debug\update.exe
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\bin\Debug\update.pdb
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.info.resources
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.exe
+C:\Users\user\Desktop\RelayTester(2023.01.29 유무극통합 방어코드_0130) (3)\update\obj\x86\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\bin\Debug\update.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\bin\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\bin\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.info.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.03 TR200, TR300 추가 진행)\update\obj\x86\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\bin\Debug\update.exe.config
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\bin\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\bin\Debug\update.pdb
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\bin\Debug\Ionic.Zip.dll
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.Form1.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.info.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.Properties.Resources.resources
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.csproj.GenerateResource.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.csproj.CopyComplete
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.exe
+C:\Users\user\source\repos\계전기\RelayTester(2023.02.06 소스리팩토링)\update\obj\x86\Debug\update.pdb
