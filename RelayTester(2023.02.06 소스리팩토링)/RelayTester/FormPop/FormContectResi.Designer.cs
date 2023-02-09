@@ -73,7 +73,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.grbResult = new System.Windows.Forms.GroupBox();
-            this.btnCali = new System.Windows.Forms.Button();
             this.txtR2 = new System.Windows.Forms.TextBox();
             this.txtR10 = new System.Windows.Forms.TextBox();
             this.txtN8 = new System.Windows.Forms.TextBox();
@@ -104,6 +103,7 @@
             this.dgvLog = new System.Windows.Forms.DataGridView();
             this.logDateTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.logData = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCali = new System.Windows.Forms.Button();
             this.grbQuery.SuspendLayout();
             this.grbContectResiMst.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -596,7 +596,7 @@
             this.tabPage1.Controls.Add(this.panel1);
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1055, 747);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "접촉저항";
@@ -628,21 +628,6 @@
             this.grbResult.TabIndex = 6;
             this.grbResult.TabStop = false;
             this.grbResult.Text = "작업결과(mV)";
-            // 
-            // btnCali
-            // 
-            this.btnCali.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnCali.Image = ((System.Drawing.Image)(resources.GetObject("btnCali.Image")));
-            this.btnCali.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCali.Location = new System.Drawing.Point(6, 28);
-            this.btnCali.Name = "btnCali";
-            this.btnCali.Size = new System.Drawing.Size(112, 42);
-            this.btnCali.TabIndex = 18;
-            this.btnCali.Text = "보정값";
-            this.btnCali.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCali.UseVisualStyleBackColor = true;
-            this.btnCali.Visible = false;
-            this.btnCali.Click += new System.EventHandler(this.btnCali_Click);
             // 
             // txtR2
             // 
@@ -815,7 +800,7 @@
             this.tabPage3.Controls.Add(this.grbMenu);
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1055, 747);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "세팅";
@@ -935,7 +920,7 @@
             this.tabPage2.Controls.Add(this.dgvLog);
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1055, 747);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "LOG";
@@ -971,6 +956,21 @@
             this.logData.MinimumWidth = 6;
             this.logData.Name = "logData";
             this.logData.Width = 1000;
+            // 
+            // btnCali
+            // 
+            this.btnCali.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnCali.Image = ((System.Drawing.Image)(resources.GetObject("btnCali.Image")));
+            this.btnCali.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCali.Location = new System.Drawing.Point(6, 28);
+            this.btnCali.Name = "btnCali";
+            this.btnCali.Size = new System.Drawing.Size(112, 42);
+            this.btnCali.TabIndex = 18;
+            this.btnCali.Text = "보정값";
+            this.btnCali.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCali.UseVisualStyleBackColor = true;
+            this.btnCali.Visible = false;
+            this.btnCali.Click += new System.EventHandler(this.btnCali_Click);
             // 
             // FormContectResi
             // 
@@ -1067,7 +1067,6 @@
         public System.Windows.Forms.TextBox txtRelayBarcode;
         public System.Windows.Forms.MaskedTextBox mtxtLot;
         public System.Windows.Forms.Button btnBarcode;
-        public System.Windows.Forms.Button btnCali;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox grbMenu;
         public System.Windows.Forms.Button btnAdd;
@@ -1081,5 +1080,6 @@
         public System.Windows.Forms.TextBox txtTestNum;
         public System.Windows.Forms.TextBox tb_testerType;
         public System.Windows.Forms.TextBox tb_worker;
+        public System.Windows.Forms.Button btnCali;
     }
 }

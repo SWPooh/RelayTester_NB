@@ -1274,3 +1274,41 @@ C:\Users\user\source\repos\깃 폴더\RelayTester(2023.02.06 소스리팩토링)
 C:\Users\user\source\repos\깃 폴더\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\깃 폴더\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.exe
 C:\Users\user\source\repos\깃 폴더\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.pdb
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\bin\Debug\RelayTester.exe.config
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\bin\Debug\RelayTester.exe
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\bin\Debug\RelayTester.pdb
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormProgressbar.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormRelay.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetActionError.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormAdminLogin.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormCali.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormContectResi.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetContectCorrectValue.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetAdminPW.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetCorrectValue.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormErrorCodePopCon.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormErrorCodePop.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormErrorReport.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormReportLotPopNew.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormReportLotPop.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormReportPrint.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormTimeResult.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetErrorCode.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetTester.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormBaseCode.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormLotPop.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSelectResult.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetTestValue.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSchedPop.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetSchedule.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormSetWorker.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormMain.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.FormPalletInput.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.Properties.Resources.resources
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.csproj.GenerateResource.cache
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.exe
+C:\Users\user\Desktop\GitHub\GitHubRelayTester_NB\RelayTester_NB\RelayTester(2023.02.06 소스리팩토링)\RelayTester\obj\Debug\RelayTester.pdb

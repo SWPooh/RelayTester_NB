@@ -89,9 +89,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonProcess\CellPaint.cs" />
     <Compile Include="CommonRelay.cs" />
+    <Compile Include="CommonProcess\CommonWork.cs" />
     <Compile Include="CreateMsg.cs" />
-    <Compile Include="DbLink.cs" />
+    <Compile Include="CommonProcess\DbLink.cs" />
     <Compile Include="ErrorCodePop.cs" />
     <Compile Include="ErrorReport.cs" />
     <Compile Include="Excell.cs" />
@@ -108,18 +110,19 @@
     <Compile Include="FormRelay.Designer.cs">
       <DependentUpon>FormRelay.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSetting\FormAdminLogin\FormAdminLoginWork.cs" />
     <Compile Include="FormSetting\FormBaseCode\FormBaseCodeWork.cs" />
     <Compile Include="FormSetting\FormCorrectValue\FormCorrectValueWork.cs" />
-    <Compile Include="FormSetting\FormSetActionError.cs">
+    <Compile Include="FormSetting\FormSetActionError\FormSetActionError.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting\FormSetActionError.Designer.cs">
+    <Compile Include="FormSetting\FormSetActionError\FormSetActionError.Designer.cs">
       <DependentUpon>FormSetActionError.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSetting\FormAdminLogin.cs">
+    <Compile Include="FormSetting\FormAdminLogin\FormAdminLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting\FormAdminLogin.Designer.cs">
+    <Compile Include="FormSetting\FormAdminLogin\FormAdminLogin.Designer.cs">
       <DependentUpon>FormAdminLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSetting\FormCorrectValue\FormCali.cs">
@@ -140,10 +143,11 @@
     <Compile Include="FormSetting\FormCorrectValue\FormSetContectCorrectValue.Designer.cs">
       <DependentUpon>FormSetContectCorrectValue.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSetting\FormSetAdminPW.cs">
+    <Compile Include="FormSetting\FormSetActionError\FormSetActionErrorWork.cs" />
+    <Compile Include="FormSetting\FormSetAdminPW\FormSetAdminPW.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting\FormSetAdminPW.Designer.cs">
+    <Compile Include="FormSetting\FormSetAdminPW\FormSetAdminPW.Designer.cs">
       <DependentUpon>FormSetAdminPW.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSetting\FormCorrectValue\FormSetCorrectValue.cs">
@@ -194,16 +198,18 @@
     <Compile Include="FormPop\FormTimeResult.Designer.cs">
       <DependentUpon>FormTimeResult.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSetting\FormSetErrorCode.cs">
+    <Compile Include="FormSetting\FormSetAdminPW\FormSetAdminPWWork.cs" />
+    <Compile Include="FormSetting\FormSetErrorCode\FormSetErrorCode.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting\FormSetErrorCode.Designer.cs">
+    <Compile Include="FormSetting\FormSetErrorCode\FormSetErrorCode.Designer.cs">
       <DependentUpon>FormSetErrorCode.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSetting\FormSetTester.cs">
+    <Compile Include="FormSetting\FormSetErrorCode\FormSetErrorCodeWork.cs" />
+    <Compile Include="FormSetting\FormSetTester\FormSetTester.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting\FormSetTester.Designer.cs">
+    <Compile Include="FormSetting\FormSetTester\FormSetTester.Designer.cs">
       <DependentUpon>FormSetTester.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSetting\FormBaseCode\FormBaseCode.cs">
@@ -224,10 +230,11 @@
     <Compile Include="FormReport\FormSelectResult.Designer.cs">
       <DependentUpon>FormSelectResult.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSetting\FormSetTestValue.cs">
+    <Compile Include="FormSetting\FormSetTester\FormSetTesterWork.cs" />
+    <Compile Include="FormSetting\FormSetTestValue\FormSetTestValue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting\FormSetTestValue.Designer.cs">
+    <Compile Include="FormSetting\FormSetTestValue\FormSetTestValue.Designer.cs">
       <DependentUpon>FormSetTestValue.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPop\FormSchedPop.cs">
@@ -242,10 +249,11 @@
     <Compile Include="FormSetting\FormSetSchedule.Designer.cs">
       <DependentUpon>FormSetSchedule.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSetting\FormSetWorker.cs">
+    <Compile Include="FormSetting\FormSetTestValue\FormSetTestValueWork.cs" />
+    <Compile Include="FormSetting\FormSetWorker\FormSetWorker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting\FormSetWorker.Designer.cs">
+    <Compile Include="FormSetting\FormSetWorker\FormSetWorker.Designer.cs">
       <DependentUpon>FormSetWorker.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMain\FormMain.cs">
@@ -260,7 +268,8 @@
     <Compile Include="FormPop\FormPalletInput.Designer.cs">
       <DependentUpon>FormPalletInput.cs</DependentUpon>
     </Compile>
-    <Compile Include="Global.cs" />
+    <Compile Include="CommonProcess\Global.cs" />
+    <Compile Include="FormSetting\FormSetWorker\FormSetWorkerWork.cs" />
     <Compile Include="JobResult.cs" />
     <Compile Include="JobSetting.cs" />
     <Compile Include="Program.cs" />
@@ -274,10 +283,10 @@
       <DependentUpon>FormRelay.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting\FormSetActionError.resx">
+    <EmbeddedResource Include="FormSetting\FormSetActionError\FormSetActionError.resx">
       <DependentUpon>FormSetActionError.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting\FormAdminLogin.resx">
+    <EmbeddedResource Include="FormSetting\FormAdminLogin\FormAdminLogin.resx">
       <DependentUpon>FormAdminLogin.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -293,7 +302,7 @@
       <DependentUpon>FormSetContectCorrectValue.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting\FormSetAdminPW.resx">
+    <EmbeddedResource Include="FormSetting\FormSetAdminPW\FormSetAdminPW.resx">
       <DependentUpon>FormSetAdminPW.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -326,10 +335,10 @@
       <DependentUpon>FormTimeResult.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting\FormSetErrorCode.resx">
+    <EmbeddedResource Include="FormSetting\FormSetErrorCode\FormSetErrorCode.resx">
       <DependentUpon>FormSetErrorCode.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting\FormSetTester.resx">
+    <EmbeddedResource Include="FormSetting\FormSetTester\FormSetTester.resx">
       <DependentUpon>FormSetTester.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -345,7 +354,7 @@
       <DependentUpon>FormSelectResult.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting\FormSetTestValue.resx">
+    <EmbeddedResource Include="FormSetting\FormSetTestValue\FormSetTestValue.resx">
       <DependentUpon>FormSetTestValue.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -357,7 +366,7 @@
       <DependentUpon>FormSetSchedule.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting\FormSetWorker.resx">
+    <EmbeddedResource Include="FormSetting\FormSetWorker\FormSetWorker.resx">
       <DependentUpon>FormSetWorker.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>

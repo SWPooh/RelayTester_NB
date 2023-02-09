@@ -38,13 +38,7 @@ namespace RelayTester
 
         private void btnQuery_Click(object sender, EventArgs e)
         {
-            foreach(Control ctl in this.Controls)
-            {
-                if(ctl.GetType().ToString().Equals("System.Windows.Forms.TextBox"))
-                {
-                    ctl.Text = "";
-                }
-            }
+            CommonWork.TextboxClear(groupBox3);
 
 
             string pQuery = "EXEC _SCaliQuery '" + groupBox3.Text.Substring(0,1) + "', '1'";

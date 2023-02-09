@@ -31,9 +31,6 @@
             this.grbMenu = new System.Windows.Forms.GroupBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnQuery = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnNew = new System.Windows.Forms.Button();
             this.gbTiming = new System.Windows.Forms.GroupBox();
             this.label86 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
@@ -153,7 +150,6 @@
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.txtRNMin = new System.Windows.Forms.TextBox();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.splitter2 = new System.Windows.Forms.Splitter();
             this.splitter3 = new System.Windows.Forms.Splitter();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -185,6 +181,7 @@
             this.label67 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.txtCRNMin = new System.Windows.Forms.TextBox();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.grbMenu.SuspendLayout();
             this.gbTiming.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -231,48 +228,6 @@
             this.btnQuery.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnQuery.UseVisualStyleBackColor = true;
             this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Font = new System.Drawing.Font("새굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnDelete.Image = global::RelayTester.Properties.Resources.page_white_delete;
-            this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(949, 21);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(90, 42);
-            this.btnDelete.TabIndex = 3;
-            this.btnDelete.Text = "삭제";
-            this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Visible = false;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Font = new System.Drawing.Font("새굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnAdd.Image = global::RelayTester.Properties.Resources.page_white_add;
-            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(869, 21);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(90, 42);
-            this.btnAdd.TabIndex = 2;
-            this.btnAdd.Text = "추가";
-            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Visible = false;
-            // 
-            // btnNew
-            // 
-            this.btnNew.Font = new System.Drawing.Font("새굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnNew.Image = global::RelayTester.Properties.Resources.page_white;
-            this.btnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNew.Location = new System.Drawing.Point(709, 21);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(90, 42);
-            this.btnNew.TabIndex = 0;
-            this.btnNew.Text = "신규";
-            this.btnNew.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Visible = false;
             // 
             // gbTiming
             // 
@@ -1695,14 +1650,6 @@
             this.txtRNMin.TabIndex = 0;
             this.txtRNMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(1166, 76);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(10, 905);
-            this.splitter1.TabIndex = 44;
-            this.splitter1.TabStop = false;
-            // 
             // splitter2
             // 
             this.splitter2.Location = new System.Drawing.Point(774, 76);
@@ -2070,7 +2017,15 @@
             this.txtCRNMin.TabIndex = 0;
             this.txtCRNMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // FormRefVal
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(1166, 76);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(10, 905);
+            this.splitter1.TabIndex = 44;
+            this.splitter1.TabStop = false;
+            // 
+            // FormSetTestValue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2078,15 +2033,12 @@
             this.Controls.Add(this.gbTiming);
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.splitter2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.splitter3);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.grbMenu);
-            this.Name = "FormRefVal";
+            this.Name = "FormSetTestValue";
             this.Text = "시험 기준값 등록";
             this.Load += new System.EventHandler(this.FormRefVal_Load);
             this.grbMenu.ResumeLayout(false);
@@ -2105,10 +2057,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grbMenu;
-        public System.Windows.Forms.Button btnNew;
         public System.Windows.Forms.Button btnSave;
-        public System.Windows.Forms.Button btnDelete;
-        public System.Windows.Forms.Button btnAdd;
         public System.Windows.Forms.Button btnQuery;
         private System.Windows.Forms.GroupBox gbTiming;
         public System.Windows.Forms.TextBox txtTNRNMin;
@@ -2200,7 +2149,6 @@
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         public System.Windows.Forms.TextBox txtRNMin;
-        private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Splitter splitter2;
         private System.Windows.Forms.Splitter splitter3;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -2261,5 +2209,6 @@
         private System.Windows.Forms.Label label84;
         private System.Windows.Forms.Label label85;
         public System.Windows.Forms.TextBox txtRPLMin;
+        private System.Windows.Forms.Splitter splitter1;
     }
 }

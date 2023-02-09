@@ -33,7 +33,6 @@
             this.btnQuery = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.btnNew = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
             this.txtR10VoltB = new System.Windows.Forms.TextBox();
@@ -116,7 +115,6 @@
             // 
             this.grbMenu.Controls.Add(this.btnSave);
             this.grbMenu.Controls.Add(this.btnQuery);
-            this.grbMenu.Controls.Add(this.btnNew);
             this.grbMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.grbMenu.Font = new System.Drawing.Font("새굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.grbMenu.Location = new System.Drawing.Point(0, 0);
@@ -180,20 +178,6 @@
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Visible = false;
-            // 
-            // btnNew
-            // 
-            this.btnNew.Font = new System.Drawing.Font("새굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnNew.Image = global::RelayTester.Properties.Resources.page_white;
-            this.btnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNew.Location = new System.Drawing.Point(645, 21);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(90, 42);
-            this.btnNew.TabIndex = 0;
-            this.btnNew.Text = "신규";
-            this.btnNew.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Visible = false;
             // 
             // groupBox3
             // 
@@ -1058,7 +1042,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grbMenu;
-        public System.Windows.Forms.Button btnNew;
         public System.Windows.Forms.Button btnSave;
         public System.Windows.Forms.Button btnDelete;
         public System.Windows.Forms.Button btnAdd;

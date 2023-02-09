@@ -156,8 +156,10 @@
             this.dgvEmp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEmp.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvEmp.Location = new System.Drawing.Point(3, 31);
+            this.dgvEmp.MultiSelect = false;
             this.dgvEmp.Name = "dgvEmp";
             this.dgvEmp.RowTemplate.Height = 23;
+            this.dgvEmp.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEmp.Size = new System.Drawing.Size(700, 418);
             this.dgvEmp.TabIndex = 0;
             // 
@@ -193,7 +195,7 @@
             this.txtEmpName.TabIndex = 0;
             this.txtEmpName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtEmpName_KeyDown);
             // 
-            // FormEmpReg
+            // FormSetWorker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -201,7 +203,7 @@
             this.Controls.Add(this.grbContent);
             this.Controls.Add(this.grbQuery);
             this.Controls.Add(this.grbMenu);
-            this.Name = "FormEmpReg";
+            this.Name = "FormSetWorker";
             this.Text = "작업자등록";
             this.Load += new System.EventHandler(this.FormEmpReg_Load);
             this.grbMenu.ResumeLayout(false);

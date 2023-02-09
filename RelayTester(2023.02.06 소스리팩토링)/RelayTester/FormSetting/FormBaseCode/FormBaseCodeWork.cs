@@ -10,7 +10,7 @@ namespace RelayTester
 {
     public class FormBaseCodeWork
     {
-        public FormBaseCode formBase;
+        public FormBaseCode Form_Base;
 
         public DataSet mainDS = new DataSet();
         public DataSet dtlDS = new DataSet();
@@ -21,39 +21,39 @@ namespace RelayTester
 
         public FormBaseCodeWork(FormBaseCode form) 
         { 
-            formBase= form;
+            Form_Base= form;
         }
 
         public void GridResetMethod()
         {
-            formBase.dgvCommonMst.DataSource = mainDS.Tables[0];
+            Form_Base.dgvCommonMst.DataSource = mainDS.Tables[0];
             //컬럼명
-            formBase.dgvCommonMst.Columns["Code_Mst"].HeaderCell.Value = "코드";
-            formBase.dgvCommonMst.Columns["Code_Mst_Name"].HeaderCell.Value = "코드명";
+            Form_Base.dgvCommonMst.Columns["Code_Mst"].HeaderCell.Value = "코드";
+            Form_Base.dgvCommonMst.Columns["Code_Mst_Name"].HeaderCell.Value = "코드명";
 
-            formBase.dgvCommonDtl.Columns["Code_Dtl"].HeaderCell.Value = "세부코드";
-            formBase.dgvCommonDtl.Columns["Code_Dtl_Name"].HeaderCell.Value = "세부코드명";
-            formBase.dgvCommonDtl.Columns["Remark"].HeaderCell.Value = "비고";
+            Form_Base.dgvCommonDtl.Columns["Code_Dtl"].HeaderCell.Value = "세부코드";
+            Form_Base.dgvCommonDtl.Columns["Code_Dtl_Name"].HeaderCell.Value = "세부코드명";
+            Form_Base.dgvCommonDtl.Columns["Remark"].HeaderCell.Value = "비고";
 
             //컬럼 비지블
-            formBase.dgvCommonDtl.Columns["Code_Mst"].Visible = false;
+            Form_Base.dgvCommonDtl.Columns["Code_Mst"].Visible = false;
 
             //컬럼 인에이블
-            formBase.dgvCommonMst.Columns["Code_Mst"].ReadOnly = true;
-            formBase.dgvCommonDtl.Columns["Code_Dtl"].ReadOnly = true;
+            Form_Base.dgvCommonMst.Columns["Code_Mst"].ReadOnly = true;
+            Form_Base.dgvCommonDtl.Columns["Code_Dtl"].ReadOnly = true;
 
             //컬럼 사이즈
-            formBase.dgvCommonMst.Columns["Code_Mst"].Width = 100;
-            formBase.dgvCommonMst.Columns["Code_Mst_Name"].Width = 150;
-            formBase.dgvCommonDtl.Columns["Code_Dtl"].Width = 150;
-            formBase.dgvCommonDtl.Columns["Code_Dtl_Name"].Width = 150;
-            formBase.dgvCommonDtl.Columns["Remark"].Width = 300;
+            Form_Base.dgvCommonMst.Columns["Code_Mst"].Width = 100;
+            Form_Base.dgvCommonMst.Columns["Code_Mst_Name"].Width = 150;
+            Form_Base.dgvCommonDtl.Columns["Code_Dtl"].Width = 150;
+            Form_Base.dgvCommonDtl.Columns["Code_Dtl_Name"].Width = 150;
+            Form_Base.dgvCommonDtl.Columns["Remark"].Width = 300;
 
         } //DATAGRIDVIEW DATASOURCE 바인딩 후 헤더값 설정
 
         public void NewClick()
         {
-            formBase.txtCodeName.Text = "";
+            Form_Base.txtCodeName.Text = "";
             mainDS.Clear();
             dtlDS.Clear();
             GridResetMethod();
@@ -64,15 +64,15 @@ namespace RelayTester
             try
             {
                 string pQuery = string.Empty;
-                string pCodeNm = formBase.txtCodeName.Text;
+                string pCodeNm = Form_Base.txtCodeName.Text;
 
                 pQuery = "EXEC _SCommonMasterQuery '" + pCodeNm + "'";
 
                 mainDS.Clear();
-                formBase.dgvCommonMst.DataSource = null;
+                Form_Base.dgvCommonMst.DataSource = null;
 
                 Dblink.AllSelect(pQuery, mainDS);
-                formBase.dgvCommonMst.DataSource = mainDS.Tables[0];
+                Form_Base.dgvCommonMst.DataSource = mainDS.Tables[0];
 
                 if (mainDS.Tables[0].Rows.Count > 1)
                 {
@@ -84,7 +84,7 @@ namespace RelayTester
             }
             catch (Exception ex)
             {
-                formBase.Cursor = Cursors.Default;
+                Form_Base.Cursor = Cursors.Default;
                 MessageBox.Show("작업중 오류가 발생했습니다.\n\n" + ex.Message + "\n\n Error Code : FCC101", "에러", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         } // 조회버튼 클릭 이벤트
@@ -96,31 +96,31 @@ namespace RelayTester
                 
                 if (e.RowIndex >= 0)
                 {
-                    formBase.txtCodeName.Text = formBase.dgvCommonMst.SelectedRows[0].Cells[0].Value.ToString();
+                    Form_Base.txtCodeName.Text = Form_Base.dgvCommonMst.SelectedRows[0].Cells[0].Value.ToString();
 
                     rowindex = e.RowIndex;
 
                     string pQuery2 = string.Empty;
                     sCodeMst = string.Empty;
-                    sCodeMst = formBase.dgvCommonMst.Rows[e.RowIndex].Cells[0].Value.ToString();
+                    sCodeMst = Form_Base.dgvCommonMst.Rows[e.RowIndex].Cells[0].Value.ToString();
 
                     pQuery2 = "EXEC _SCommonDetailQuery '" + sCodeMst + "'";
 
                     dtlDS.Clear();
-                    formBase.dgvCommonDtl.DataSource = null;
+                    Form_Base.dgvCommonDtl.DataSource = null;
 
                     Dblink.AllSelect(pQuery2, dtlDS);
-                    formBase.dgvCommonDtl.DataSource = dtlDS.Tables[0];
+                    Form_Base.dgvCommonDtl.DataSource = dtlDS.Tables[0];
 
                     //dgvCommonMst.Rows[rowindex].Selected = true;
-                    formBase.dgvCommonMst.CurrentCell = formBase.dgvCommonMst.Rows[rowindex].Cells[e.ColumnIndex];
+                    Form_Base.dgvCommonMst.CurrentCell = Form_Base.dgvCommonMst.Rows[rowindex].Cells[e.ColumnIndex];
 
                     GridResetMethod();
                 }
             }
             catch (Exception ex)
             {
-                formBase.Cursor = Cursors.Default;
+                Form_Base.Cursor = Cursors.Default;
                 MessageBox.Show("작업중 오류가 발생했습니다.\n\n" + ex.Message + "\n\n Error Code : FCC103", "에러", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         } // 마스트 그리드뷰 셀 선택 시 우측 그리드뷰 데이터 조회
@@ -166,13 +166,13 @@ namespace RelayTester
                         Dblink.ModifyMethod(pQuery);
                     }
                 }
-                formBase.txtCodeName.Text = "";
+                Form_Base.txtCodeName.Text = "";
                 QueryClick();
                 MessageBox.Show("저장이 완료되었습니다.", "저장", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                formBase.Cursor = Cursors.Default;
+                Form_Base.Cursor = Cursors.Default;
                 MessageBox.Show("작업중 오류가 발생했습니다.\n\n" + ex.Message + "\n\n Error Code : FCC102", "에러", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         } //저장버튼 클릭 이벤트 , 그리드뷰 데이터 저장
@@ -206,14 +206,14 @@ namespace RelayTester
 
                 rows[mainDS.Tables[0].Rows.Count - 1]["Code_Mst"] = "CM" + String.Format("{0,3:000}", max);
 
-                formBase.dgvCommonMst.DataSource = mainDS.Tables[0];
+                Form_Base.dgvCommonMst.DataSource = mainDS.Tables[0];
 
                 DataGridViewCellEventArgs cellIndex = new DataGridViewCellEventArgs(0, max - 1);
                 SearchDetail(null, cellIndex);
             }
             catch (Exception ex)
             {
-                formBase.Cursor = Cursors.Default;
+                Form_Base.Cursor = Cursors.Default;
                 MessageBox.Show("작업중 오류가 발생했습니다.\n\n" + ex.Message + "\n\n Error Code : FCC102", "에러", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         } //추가버튼 클릭 이벤트
@@ -264,12 +264,12 @@ namespace RelayTester
                 rows[dtlDS.Tables[0].Rows.Count - 1]["Code_Mst"] = sCodeMst;
                 rows[dtlDS.Tables[0].Rows.Count - 1]["Code_Dtl"] = String.Format("{0,2:00}", max);
 
-                formBase.dgvCommonDtl.DataSource = dtlDS.Tables[0];
+                Form_Base.dgvCommonDtl.DataSource = dtlDS.Tables[0];
 
             }
             catch (Exception ex)
             {
-                formBase.Cursor = Cursors.Default;
+                Form_Base.Cursor = Cursors.Default;
                 MessageBox.Show("작업중 오류가 발생했습니다.\n\n" + ex.Message + "\n\n Error Code : FCC104", "에러", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         } //디테일 추가버튼 클릭 이벤트
@@ -278,12 +278,12 @@ namespace RelayTester
         {
             try
             {
-                if (formBase.dgvCommonMst.SelectedRows.Count > 0)
+                if (Form_Base.dgvCommonMst.SelectedRows.Count > 0)
                 {
-                    string Mst_code = formBase.dgvCommonMst.SelectedRows[0].Cells[0].Value.ToString();
+                    string Mst_code = Form_Base.dgvCommonMst.SelectedRows[0].Cells[0].Value.ToString();
                     //DeleteDetailClick();
                     Dblink.ModifyMethod("EXEC _SCommonMasterDeleteQuery '" + Mst_code + "', '','MstDelete'");
-                    formBase.txtCodeName.Text = "";
+                    Form_Base.txtCodeName.Text = "";
                     rowindex = 0;
                     QueryClick();
                 }
@@ -299,13 +299,13 @@ namespace RelayTester
         {
             try
             {
-                if (formBase.dgvCommonDtl.SelectedRows.Count > 0)
+                if (Form_Base.dgvCommonDtl.SelectedRows.Count > 0)
                 {
-                    string Mst_code = formBase.dgvCommonMst.SelectedRows[0].Cells[0].Value.ToString();
-                    string Mst_dtl_code = formBase.dgvCommonDtl.SelectedRows[0].Cells[1].Value.ToString();
+                    string Mst_code = Form_Base.dgvCommonMst.SelectedRows[0].Cells[0].Value.ToString();
+                    string Mst_dtl_code = Form_Base.dgvCommonDtl.SelectedRows[0].Cells[1].Value.ToString();
 
                     Dblink.ModifyMethod("EXEC _SCommonMasterDeleteQuery '" + Mst_code + "', '" + Mst_dtl_code + "', 'MstDetailDelete'");
-                    formBase.txtCodeName.Text = "";
+                    Form_Base.txtCodeName.Text = "";
                     rowindex = 0;
                     QueryClick();
                 }

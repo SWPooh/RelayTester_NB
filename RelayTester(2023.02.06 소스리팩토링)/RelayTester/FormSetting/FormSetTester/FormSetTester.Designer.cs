@@ -54,7 +54,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.txtRelayTypeCode = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.txtRelayEasyName = new System.Windows.Forms.TextBox();
+            this.txtRelaySimpleName = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.txtSizeD = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -94,6 +94,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtRelayCode = new System.Windows.Forms.TextBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.label26 = new System.Windows.Forms.Label();
+            this.pnl_color = new System.Windows.Forms.Panel();
             this.grbMenu.SuspendLayout();
             this.grbRelayList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRelayList)).BeginInit();
@@ -123,7 +125,7 @@
             this.btnSave.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnSave.Image = global::RelayTester.Properties.Resources.page_white_database;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(391, 21);
+            this.btnSave.Location = new System.Drawing.Point(300, 21);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(90, 42);
             this.btnSave.TabIndex = 4;
@@ -137,7 +139,7 @@
             this.btnDelete.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnDelete.Image = global::RelayTester.Properties.Resources.page_white_delete;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(295, 21);
+            this.btnDelete.Location = new System.Drawing.Point(204, 21);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(90, 42);
             this.btnDelete.TabIndex = 3;
@@ -151,7 +153,7 @@
             this.btnAdd.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnAdd.Image = global::RelayTester.Properties.Resources.page_white_add;
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(199, 21);
+            this.btnAdd.Location = new System.Drawing.Point(108, 21);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(90, 42);
             this.btnAdd.TabIndex = 2;
@@ -165,7 +167,7 @@
             this.btnQuery.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnQuery.Image = global::RelayTester.Properties.Resources.page_white_magnify;
             this.btnQuery.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuery.Location = new System.Drawing.Point(103, 21);
+            this.btnQuery.Location = new System.Drawing.Point(12, 21);
             this.btnQuery.Name = "btnQuery";
             this.btnQuery.Size = new System.Drawing.Size(90, 42);
             this.btnQuery.TabIndex = 1;
@@ -179,13 +181,14 @@
             this.btnNew.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnNew.Image = global::RelayTester.Properties.Resources.page_white;
             this.btnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNew.Location = new System.Drawing.Point(7, 21);
+            this.btnNew.Location = new System.Drawing.Point(1481, 20);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(90, 42);
             this.btnNew.TabIndex = 0;
             this.btnNew.Text = "신규";
             this.btnNew.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Visible = false;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // grbRelayList
@@ -245,7 +248,6 @@
             this.txtCodeName.Name = "txtCodeName";
             this.txtCodeName.Size = new System.Drawing.Size(169, 35);
             this.txtCodeName.TabIndex = 0;
-            this.txtCodeName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCodeName_KeyDown);
             // 
             // splitter1
             // 
@@ -257,6 +259,8 @@
             // 
             // grbRelayDtl
             // 
+            this.grbRelayDtl.Controls.Add(this.pnl_color);
+            this.grbRelayDtl.Controls.Add(this.label26);
             this.grbRelayDtl.Controls.Add(this.label25);
             this.grbRelayDtl.Controls.Add(this.txtB);
             this.grbRelayDtl.Controls.Add(this.label24);
@@ -270,7 +274,7 @@
             this.grbRelayDtl.Controls.Add(this.label20);
             this.grbRelayDtl.Controls.Add(this.txtRelayTypeCode);
             this.grbRelayDtl.Controls.Add(this.label19);
-            this.grbRelayDtl.Controls.Add(this.txtRelayEasyName);
+            this.grbRelayDtl.Controls.Add(this.txtRelaySimpleName);
             this.grbRelayDtl.Controls.Add(this.label18);
             this.grbRelayDtl.Controls.Add(this.txtSizeD);
             this.grbRelayDtl.Controls.Add(this.label15);
@@ -451,13 +455,13 @@
             this.label19.Text = "생산명";
             this.label19.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // txtRelayEasyName
+            // txtRelaySimpleName
             // 
-            this.txtRelayEasyName.Font = new System.Drawing.Font("맑은 고딕", 15.75F);
-            this.txtRelayEasyName.Location = new System.Drawing.Point(560, 62);
-            this.txtRelayEasyName.Name = "txtRelayEasyName";
-            this.txtRelayEasyName.Size = new System.Drawing.Size(133, 35);
-            this.txtRelayEasyName.TabIndex = 40;
+            this.txtRelaySimpleName.Font = new System.Drawing.Font("맑은 고딕", 15.75F);
+            this.txtRelaySimpleName.Location = new System.Drawing.Point(560, 62);
+            this.txtRelaySimpleName.Name = "txtRelaySimpleName";
+            this.txtRelaySimpleName.Size = new System.Drawing.Size(133, 35);
+            this.txtRelaySimpleName.TabIndex = 40;
             // 
             // label18
             // 
@@ -831,6 +835,27 @@
             this.txtRelayCode.Size = new System.Drawing.Size(169, 35);
             this.txtRelayCode.TabIndex = 2;
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label26.ForeColor = System.Drawing.Color.Maroon;
+            this.label26.Location = new System.Drawing.Point(780, 122);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(256, 13);
+            this.label26.TabIndex = 54;
+            this.label26.Text = "* 시험기 릴레이등록 화면에서 보이는 팔레트 색상";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // pnl_color
+            // 
+            this.pnl_color.BackColor = System.Drawing.SystemColors.Control;
+            this.pnl_color.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl_color.Location = new System.Drawing.Point(699, 18);
+            this.pnl_color.Name = "pnl_color";
+            this.pnl_color.Size = new System.Drawing.Size(75, 79);
+            this.pnl_color.TabIndex = 55;
+            // 
             // FormSetTester
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -872,7 +897,6 @@
         public System.Windows.Forms.TextBox txtCodeName;
         public System.Windows.Forms.DataGridView dgvRelayList;
         private System.Windows.Forms.Splitter splitter1;
-        private System.Windows.Forms.GroupBox grbRelayDtl;
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.TextBox txtContectD;
         private System.Windows.Forms.Label label4;
@@ -898,9 +922,6 @@
         public System.Windows.Forms.TextBox txtImg2;
         public System.Windows.Forms.Button btnImg2Add;
         public System.Windows.Forms.Button btnImg1Add;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         public System.Windows.Forms.Button btnImg3Add;
         public System.Windows.Forms.TextBox txtImg3;
         private System.Windows.Forms.Label label13;
@@ -911,9 +932,8 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         public System.Windows.Forms.TextBox txtSizeD;
-        private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Label label19;
-        public System.Windows.Forms.TextBox txtRelayEasyName;
+        public System.Windows.Forms.TextBox txtRelaySimpleName;
         private System.Windows.Forms.Label label20;
         public System.Windows.Forms.TextBox txtRelayTypeCode;
         private System.Windows.Forms.Label label25;
@@ -926,5 +946,12 @@
         public System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.Label label21;
         public System.Windows.Forms.Button btn_Color;
+        public System.Windows.Forms.GroupBox grbRelayDtl;
+        public System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.Label label26;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.Panel pnl_color;
     }
 }

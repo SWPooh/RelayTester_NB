@@ -36,7 +36,6 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnAddDtl = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.btnQuery = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.grbScheduleDetail = new System.Windows.Forms.GroupBox();
@@ -78,7 +77,6 @@
             this.grbMenu.Controls.Add(this.btnSave);
             this.grbMenu.Controls.Add(this.btnAddDtl);
             this.grbMenu.Controls.Add(this.btnDelete);
-            this.grbMenu.Controls.Add(this.btnAdd);
             this.grbMenu.Controls.Add(this.btnQuery);
             this.grbMenu.Controls.Add(this.btnNew);
             this.grbMenu.Dock = System.Windows.Forms.DockStyle.Top;
@@ -143,20 +141,6 @@
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnAdd.Image = global::RelayTester.Properties.Resources.page_white_add;
-            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(888, 20);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(102, 42);
-            this.btnAdd.TabIndex = 2;
-            this.btnAdd.Text = "추가";
-            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Visible = false;
             // 
             // btnQuery
             // 
@@ -477,7 +461,7 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // FormSchedule
+            // FormSetSchedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -486,7 +470,7 @@
             this.Controls.Add(this.grbSchedMst);
             this.Controls.Add(this.grbQuery);
             this.Controls.Add(this.grbMenu);
-            this.Name = "FormSchedule";
+            this.Name = "FormSetSchedule";
             this.Text = "스케줄등록";
             this.Load += new System.EventHandler(this.FormSchedule_Load);
             this.grbMenu.ResumeLayout(false);
@@ -507,7 +491,6 @@
         private System.Windows.Forms.GroupBox grbScheduleDetail;
         public System.Windows.Forms.Button btnSave;
         public System.Windows.Forms.Button btnDelete;
-        public System.Windows.Forms.Button btnAdd;
         public System.Windows.Forms.Button btnQuery;
         private System.Windows.Forms.GroupBox grbQuery;
         private System.Windows.Forms.Label lblSchedSeq;

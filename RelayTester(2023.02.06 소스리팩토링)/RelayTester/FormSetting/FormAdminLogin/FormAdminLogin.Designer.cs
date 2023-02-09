@@ -41,7 +41,7 @@
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.Location = new System.Drawing.Point(22, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 37);
+            this.label1.Size = new System.Drawing.Size(215, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "관리자 비밀번호";
             // 
@@ -100,6 +100,7 @@
             this.Name = "FormAdminLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "관리자 로그인";
+            this.Load += new System.EventHandler(this.FormAdminLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
